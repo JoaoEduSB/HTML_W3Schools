@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia e Hora</title>
+
+    <style>
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro Javascript</h1>
+
+    <!-- Basicamente esse botão ao ser clicado ele percore o documento e pega o id 'Data_E_Hora', dentro do HTML ele adiciona a data e hora-->
+    <button type="button" onclick="document.getElementById('Data_E_Hora').innerHTML = Date()">Clique aqui para mostrar a data e a hora</button>
+
+    <p id="Data_E_Hora"></p>
+
+    <p>Voltar ao início: <a href="../Html/links.html">Início</a></p>
+
+</body>
+</html>
